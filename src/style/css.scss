@@ -1,0 +1,249 @@
+body, h1, h2, h3, h4, h5, h6,
+ hr, p, blockquote, dl, dt, dd, 
+ ul, ol, li, pre, form,fieldset, 
+ legend, button, input, textarea, 
+ th, td { margin: 0; padding: 0; }
+
+
+body, button, input, select, textarea {font: 12px/1.5 tahoma,
+	                                   verdana,
+	                                   arial,
+	                                   helvetica,
+	                                   sans-serif,"宋体";} 
+
+a {color:#666; text-decoration: none; }
+a:hover { text-decoration: none; color:#f00 ; }
+
+fieldset, img { border: 0; }
+.clearfix:after { content:"."; 
+                  display:block; 
+                  clear:both; 
+                  visibility:hidden; 
+                  font-size:0; 
+                  line-height:0;
+                   height:0; } 
+.clearfix { *zoom:1; /* IE6 7 */ }
+ul,li,dl,dt,dd,ol{list-style: none;}
+img {border: none;}
+
+.w{
+	width: 1225px;
+	height: 100%;
+	margin: 0 auto;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+
+
+/************************************************header*********************************/
+
+.zhuche{
+	height: 100%;
+	background: #f3f3f3;
+
+}
+header{
+	width: 100%;
+	height: 30px;
+	background:#f3f3f3;
+	position: relative; 
+}
+header .lefts{
+	width: 385px;
+}
+header .zhuye{
+	position: absolute;
+	transform: translate(0 ,50%);
+}
+
+header .lefts a{
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 30px;
+}
+
+header .lefts span{
+	line-height: 30px;
+	color: #666666
+}
+header .lefts .souye{
+	width: 68px;
+}
+
+
+header .rights{
+	width:302px ;
+}
+header .rights .l .tu{
+	display: inline-block;
+	position: absolute;
+	transform: translate(0% ,-20%);
+	height: 30px;
+	width: 20px;
+	background: url(../img/tuitop_ico.png) no-repeat center;
+}
+header .rights .l {
+	line-height: 30px;
+	width: 72px;
+	margin-left: 3px;
+}
+
+header .rights .l .tu1{
+	background-position: 0 10px; 	
+}
+header .rights .l .tu2{
+	background-position: 0 -45px; 
+}
+header .rights .l .tu3{
+	background-position: 0 -45px; 
+}
+header .rights .l .tu4{
+	background-position: 0 -75px; 
+}
+
+/************* logo**************/
+
+.banxin .logo{
+	width: 100%;
+	height: 126px;
+	background: url(../picture/5bfb672f46306.png) no-repeat left;
+	margin-left: 112px;
+}
+/***********hmmall里俩样式*******************/
+.banxin .hmmall{
+	overflow: hidden;
+	width: 1000px;
+	height: 380px;
+	margin:0 auto; 
+    background: #fff;
+}
+/*******ul(tab_panel)样式************/
+
+.banxin .hmmall .tab_panel{
+    display: block;
+    padding: 0px;
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    margin-top: 30px;
+    border-bottom: 2px solid #e6e6e6;
+
+}
+.banxin .hmmall .tab_panel .reds{
+	border-bottom: 2px solid red;
+}
+.banxin .hmmall .tab_panel .l{
+	height: 40px;
+    float: left;
+    margin-right: 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 16px;
+    margin: 0 50px;
+    padding: 0 34px;
+    font-weight: bold;
+}
+
+.banxin .hmmall .tab_panel .l i{
+	font-style: normal;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    line-height: 20px;
+    background: #c40000;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+/**************register密码注册***********/
+
+.banxin .hmmall .register{
+	width:1000px ;
+	height:280px;
+	display: block;
+	text-align: center;
+	margin-top:100px;
+}
+.banxin .hmmall .register .ifo{
+    position: relative;
+    width: 500px;
+    display: inline-block;
+    height: 60px;
+
+}
+.banxin .hmmall .register .ifo .title{
+	height: 27px;
+    line-height: 27px;
+    margin: 0px;
+    width: 80px;
+    text-align: right;
+    display: inline-block;
+    color: #3c3c3c;
+
+}
+
+.banxin .hmmall .register .ifo .text{
+   border: 1px solid #CCCCCC;
+    float: none;
+    font-family: arial,"å®‹ä½“";
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 4px 2px 4px 3px;
+    width: 253px;
+    color: #3e3e3e;	
+}  
+
+.banxin .hmmall .register .ifo .rong{
+	width: 60px;
+	height:33px;
+    color: red;
+    padding-left: 0px;
+    white-space: nowrap;
+    border: 1px solid #ffbdbe;
+    background: #ffebeb;
+    margin-left: 3px;
+    padding: 0 10px;
+    padding-left: 20px;
+    background: url(../img/error.png) no-repeat left center #ffebeb;
+    margin-left: 4px;
+    line-height: 33px;    
+    overflow: hidden;
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+}
+.banxin .hmmall .register .ifo .yanzheng{
+	width: 124px;
+	height: 35px;
+	margin-right:130px; 
+}
+.banxin .hmmall .register .ifo .ren{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 118px;
+    height: 43px;
+    left: 297px;
+    background: red;
+}
+.banxin .hmmall .register .ifo .ren .gengxin{
+	position: absolute;
+	left: 92px;
+	top: 8px;
+} 
+
+/*****************box选项******************/
+
+ 
+
+
